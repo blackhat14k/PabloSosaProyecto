@@ -195,6 +195,22 @@ body {
     font-size: 150%;
 }
 
+/*--------------- transicion -------------*/
+
+.transicion {
+    background-color: cyan;
+    width: 200px;
+    height: 200px;
+    transition: all 2s;
+}
+.transicion:hover {
+    width: 100%;
+    height: 50vh;
+    background-image:url("../imagenes/pago.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: dashed;
+}
 
 /*--------------- footer ----------*/
 
