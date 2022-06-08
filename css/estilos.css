@@ -212,7 +212,7 @@ body {
 /*---------- MQ ------------*/
 
 @media screen and (max-width:1461px) {
-    nav .inicio {   
+    .inicio {   
         display: flex;
         flex-direction: column;
         padding: 1%;
