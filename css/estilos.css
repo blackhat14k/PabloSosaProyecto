@@ -1,5 +1,5 @@
 *{
-    margin: 0%;
+    margin: 0%; 
     padding: 0%;
     font-family: sans-serif;
     box-sizing: border-box;
@@ -23,11 +23,14 @@ body {
 
 
 /*------------- header -------------*/
+.header {
+    background-image: linear-gradient(to bottom right, rgb(0, 119, 255)61% black 39%);
+}
 
 .header img { 
     height: auto;
-    width: 100%;
-    border-bottom-style: solid;
+    width: 300px;
+    
  }
 
 
@@ -52,7 +55,7 @@ body {
 
 .inicio li a {
     text-decoration: none;
-    color: black;
+    color: black;  
 }
 
 
@@ -181,25 +184,34 @@ body {
 
 .bloques {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.bloques div {
+   display: flex;
+   flex-direction: wrap;
+   margin-left: 10px;
+   margin-bottom: 10px;
 }
 
 .bloques div img {
-    width: 30%;
-    height: auto;
-    border-style:inset ;
-    border-color: rgb(1, 213, 250);
-}
-
-.bloques div div {
-    background-color: azure;
-    border-style: solid;
+    border-radius: 15px 15px 0 0;
+    width: 300px;
+    height: 300px;
 }
 
 .bloques div div p {
-    padding: 1%;
-    text-align: left;
-    font-size: 150%;
+    background-color: azure;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 25px;
+    height: auto;
+    width: 50%; 
+    border-style: solid;
+    border-left-color: rgb(10, 189, 165);
+    border-right-color: rgb(10, 189, 165) ; 
+    background-color: rgb(241, 236, 236); 
 }
 
 
@@ -212,7 +224,6 @@ body {
     justify-content: space-around;
     align-items: center;
     background-image: url("../imagenes/barraF.jpg");
-    border-style: solid;
     height: 100px;
     
 }
