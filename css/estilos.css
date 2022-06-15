@@ -28,6 +28,7 @@ body {
 }
 
 .header img { 
+    display: flex;
     height: auto;
     width: 300px;
     
