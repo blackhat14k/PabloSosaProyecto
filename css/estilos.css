@@ -169,12 +169,6 @@ body {
 
 /*--------------- main --------------*/
 
-.main3 section div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 1%;
-}
 
 .main2 section div {
     display: flex;
@@ -207,11 +201,13 @@ body {
     border-radius: 15px 15px 0 0;
     width: 300px;
     height: 300px;
+    border-style: solid;
 }
 
 .bloques div div p {
     background-color: azure;
-    text-align: justify;
+    padding: 5px;
+    text-align:left;
     font-weight: bold;
     font-size: 25px;
     height: auto;
