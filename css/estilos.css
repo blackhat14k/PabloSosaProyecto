@@ -25,15 +25,20 @@ body {
 /*------------- header -------------*/
 .header {
     background-image: linear-gradient(to bottom right, rgb(0, 119, 255)61% black 39%);
+    
 }
 
 .header img { 
     display: flex;
     height: auto;
-    width: 300px;
+    width: 500px;
+    
     
  }
 
+ nav {
+    margin-top: 10px;
+ }
 
 .inicio {
     display: flex;
@@ -116,21 +121,23 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    
+    
 }
 
 .armados div div {
     border: 2px solid black;
     border-radius: 15px;
     width: 305px;
-    height: 550px;
+    height: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     color: azure;
     box-shadow: 10px 10px 21px -4px black;
+    word-wrap: break-word   
 }
 
 .armados div div ul {
@@ -285,7 +292,8 @@ body {
         word-wrap: break-word;
 
     }
+
 }
-    
+
 
 
