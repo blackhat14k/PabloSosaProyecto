@@ -117,10 +117,11 @@ body {
 
 
 /*------------------ armados ------------------*/
-.armados div {
+.armados > div {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap:wrap
     
     
 }
@@ -150,7 +151,7 @@ body {
     border-radius: 15px 15px 0 0;
     width: 300px;
     height: 300px;
-
+ 
 }
 
 
@@ -195,6 +196,8 @@ body {
    flex-direction: wrap;
    margin-left: 10px;
    margin-bottom: 10px;
+   height: auto;
+   width: 70%;
 }
 
 .bloques div img {
@@ -204,14 +207,12 @@ body {
     border-style: solid;
 }
 
-.bloques div div p {
+.bloques div p {
     background-color: azure;
     padding: 5px;
-    text-align:left;
+    text-align:center;
     font-weight: bold;
     font-size: 25px;
-    height: auto;
-    width: 50%; 
     border-right-style: solid;
     border-bottom-style: solid;
     border-top-style: solid;
@@ -276,31 +277,47 @@ body {
         font-size: 250%;
         margin-top: 1%;
     }
+
+    .bloques {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;       
+                                                                                         
+    }
+
+
     .bloques div {
+        word-wrap: break-word;      
+        background-color: rgb(255, 255, 255);
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 50%;
+        height: auto;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        text-align: center;
-        margin: 10px; 
+        color: rgb(4, 7, 7);
+        box-shadow: 10px 10px 21px -4px black;
+        
+    
 
 
     }
 
-    .bloques div div p {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        text-align: center;
-        font-size: 200%;
-        word-wrap: break-word;
-        border-top-style: none;
-
+    .bloques div p {
+        padding: 10px;
+        font-size: 20px;
+        text-align: justify;
+        border-style: none;
+        background: none;
+        
+        
+        
     }
 
-    .bloques div div img {
+    .bloques div img {
         border-radius: 15px 15px 0 0;
+        height: auto;
+        width: 100%;
     }
 }
 
