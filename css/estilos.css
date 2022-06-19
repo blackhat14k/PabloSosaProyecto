@@ -157,10 +157,11 @@ body {
 
 .titulos {
     font-size: 300%;
+    width: 100%;
     margin-top: 3%;
     margin-bottom: 2%;
-    text-align: center;
-    font-weight: bold;  
+    text-align:center;
+    font-weight: bold; 
     border-style: solid;
     border-left-color: rgb(10, 189, 165);
     border-right-color: rgb(10, 189, 165) ; 
@@ -182,6 +183,11 @@ body {
     border-style: dashed;
     border-color: goldenrod;
 }
+
+.card {
+    margin: 15px;
+}
+
 
 /*-------------- bloques ---------------*/
 
