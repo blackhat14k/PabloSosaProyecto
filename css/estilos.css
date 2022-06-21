@@ -172,12 +172,12 @@ body {
 /*--------------- main --------------*/
 
 
-.main2 section div {
+.main2 div {
     display: flex;
     justify-content: center;
 }
 
-.main2 section div div ul {
+.main2 div div ul {
     list-style: none;
     background-color: azure;
     border-style: dashed;
