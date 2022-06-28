@@ -1,3 +1,4 @@
+/************** IMPORT *************/
 * {
   margin: 0%;
   padding: 0%;
@@ -215,5 +216,67 @@ nav {
 }
 
 /*---------- MQ ------------*/
+@media screen and (max-width: 1461px) {
+  .inicio {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+  }
+  .inicio li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+    font-size: 350%;
+  }
+  .botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .armados div div {
+    margin-top: 20%;
+  }
+  .main2 section div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main2 section div div ul {
+    font-size: 250%;
+    margin-top: 1%;
+  }
+  .bloques {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bloques div {
+    transition: heigth 2s;
+    word-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: rgb(4, 7, 7);
+    box-shadow: 10px 10px 21px -4px black;
+    margin-top: 20%;
+  }
+  .bloques div p {
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    border-style: none;
+    background: none;
+  }
+  .bloques div img {
+    border-radius: 15px 15px 0 0;
+    height: auto;
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
